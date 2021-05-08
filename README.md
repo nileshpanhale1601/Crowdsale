@@ -8,6 +8,7 @@ Dependencies
 2. Compiler     : Remix.ethereum.org,
 3. Test Network : Rinkeby,
 4. Editor       : Visual Studio Code
+5. Wallet       : Metamask
 
 
 Smart Contracts 
