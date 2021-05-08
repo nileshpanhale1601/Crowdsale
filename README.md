@@ -1,11 +1,16 @@
 # Crowdsale ICO
 
-Libraries    : openzeppeline,
-Compiler     : Remix.ethereum.org,
-Test Network : Rinkeby,
-Editor       : Visual Studio Code
+Simple example of Crowdsale ICO based on ERC-20 token which includes major functionalities like token creation, vesting of token, timeline of ICO, bonus structure of ICO.
 
-Smart Contracts :
+
+Dependencies
+1. Libraries    : openzeppeline,
+2. Compiler     : Remix.ethereum.org,
+3. Test Network : Rinkeby,
+4. Editor       : Visual Studio Code
+
+
+Smart Contracts 
 1. CrowdsaleICO.sol
 2. Vesting.sol
 3. WhiteListing.sol
