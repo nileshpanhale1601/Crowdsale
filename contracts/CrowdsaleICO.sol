@@ -11,7 +11,7 @@ contract Whitelisted {
         _;
     }
 
-    function add(address _investor) public {
+    function add(address _investor) internal {
         whitelist[_investor] = true;
     }
 
@@ -43,7 +43,7 @@ contract USDconverter {
     /**
      * Returns the latest price
      */
-    function getThePrice() public view returns (int256) {
+    function getThePrice() internal view returns (int256) {
         (
             uint80 roundID,
             int256 price,
