@@ -15,3 +15,4 @@ Simple example of Crowdsale ICO based on ERC-20 token which includes major funct
 1. CrowdsaleICO.sol
 2. Vesting.sol
 3. WhiteListing.sol
+4. ETH/USD price feed (oracle)
