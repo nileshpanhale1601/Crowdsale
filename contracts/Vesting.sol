@@ -2,7 +2,7 @@ pragma solidity ^0.8.0;
 
 contract Vest {
     function vesting(uint256 _totalSupply, uint256 _sharePercentage)
-        external
+        public
         view
         returns (uint256 _share)
     {
