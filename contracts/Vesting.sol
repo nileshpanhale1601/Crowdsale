@@ -1,11 +1,12 @@
 pragma solidity ^0.8.0;
 
 contract Vest {
-    function vesting(uint256 _totalSupply, uint256 _sharePercentage)
-        public
-        view
-        returns (uint256 _share)
+    function vesting(uint256 _totalTotal, uint256 _share)
+        private
+        pure
+        returns (uint256 _result)
     {
-        _share = (_totalSupply * _sharePercentage) / 100;
+        uint256 result = (_totalTotal * _share) / 100;
+        return (result);
     }
 }
